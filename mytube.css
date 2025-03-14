@@ -1,0 +1,65 @@
+.pic1{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  display: block;
+  transition: opacity 0.25s;
+}
+.pic1:hover{
+  opacity: 0.9;
+}
+.pic1:active{
+  opacity: 1;
+}
+
+.search-bar{
+height: 20px;
+width: 200px;
+border-radius: 5px;
+display: block;
+transition: border-color 0.25s;
+}
+.search-bar:hover{
+border-color: rgb(0, 255, 21);
+}
+
+.vid-title{
+font-size: 20px;
+font-weight: bolder;
+width: 300px;
+margin-bottom: 15px;
+}
+.vid-title:active{
+color: blue;
+}
+
+.vid-author{
+font-weight: 500;
+margin-top: 0;
+margin-bottom: 0;
+}
+.vid-stats{
+font-size: 15px;
+margin-top: 5px;
+}
+
+.vid-preview{
+width: 300px;
+cursor: pointer;
+display: inline-block;
+margin-right: 30px;
+transition: opacity 0.15s, box-shadow 0.2s,
+padding 0.15s;
+}
+.vid-preview:hover{
+opacity: 0.8;
+box-shadow: 2.5px 2.5px 10px gold;
+padding: 5px;
+}
+.vid-preview:active{
+opacity: 1;
+}
